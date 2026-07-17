@@ -227,7 +227,7 @@ p_mem_mmap (psize	n_bytes,
 			p_error_set_error_p (error,
 					     (pint) p_error_get_io_from_system ((pint) ulrc),
 					     ulrc,
-					     "Failed to call DosAllocMemory() to alocate memory");
+					     "Failed to call DosAllocMemory() to allocate memory");
 			return NULL;
 		}
 	}
